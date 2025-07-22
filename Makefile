@@ -2,7 +2,7 @@ build: clean
 	mkdir build
 	cp .env build/
 
-	g++ -Wall -Wextra -O3 -g src/main.cpp src/read_env.cpp -o build/program -Iinclude
+	g++ -Wall -Wextra -O3 -g src/main.cpp src/dotenv_manager.cpp -o build/program -Iinclude
 
 
 clean:

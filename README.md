@@ -18,7 +18,7 @@ This program is a simple way to work with **dotenv**.
 g++ src/main.cpp src/dotenv_manager.cpp -o path/to/executable -Iinclude
 ```
 
-In this case, ```-Iinclude``` is the folder where **dotevn_manager.hpp** is
+In this case, ```-Iinclude``` is the folder where **dotenv_manager.hpp** is
 
 
 <br>
@@ -38,7 +38,7 @@ This function will return a **boolean** value, **true** if it load the file prop
 
 ## How get values
 
-The variable ```dotenv_manager::env``` is a ```std::map<std::string, std::string>```. So, you can access values by the of them.
+The variable ```dotenv_manager::env``` is a ```std::map<std::string, std::string>```. So, you can access values by the name of them.
 
 ```c++
 dotenv_manager::env["NAME"];
